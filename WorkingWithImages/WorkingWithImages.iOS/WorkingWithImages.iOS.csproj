@@ -117,6 +117,9 @@
     <ImageAsset Include="Assets.xcassets\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Test.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\waterfront.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
@@ -129,16 +132,7 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon%402x.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%402x.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%402x.png">
@@ -161,9 +155,9 @@
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Assets.xcassets\csharp.imageset\" />
     <Folder Include="Assets.xcassets\waterfront.imageset\" />
     <Folder Include="Assets.xcassets\xaml.imageset\" />
-    <Folder Include="Assets.xcassets\csharp.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\csharp.png" />
